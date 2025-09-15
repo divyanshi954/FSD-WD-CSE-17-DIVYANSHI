@@ -14,20 +14,37 @@
 <table>
     <tr>
     <td><label> *Full Name: </label></td>
-    <td><input type="text" name="fullname" placeholder="enter your name" required></td>
+    <td><input type="text" name="fullname" placeholder="Enter your name" required></td>
    </tr>
    <tr><td>*E-Mail: </td>
    <td><input type="email" name="email" placeholder="Enter your e-mail" required></td>
    </tr>
    <tr>
-   <td>Enter your Age: </td>
-   <td><input type="number" name="age" placeholder="your age"></td>
+   <td>*Enter your Age: </td>
+   <td><input type="number" name="age" placeholder="your age" required></td>
+     </tr>
     <tr>
-     <td>Which option best describes your role: </td>
-     <td></td>
-
+     <td>Which option best describes your current role?</td>
+     <td>
+     <select> 
+        <option>Student</option>Student
+        <option>Graduate</option>Graduate
+        <option>Intern</option>Intern
+     </select>
+    </td>
+     </tr>
+    <tr> <td>*Would you like to list refrences?</td>
+    <td><input type="radio" name="refrences" value="yes">Yes
+        <input type="radio" name="refrences" value="no">No</td>
     </tr>
-   </tr>
+    <tr><td>Which Position do you like to apply for?</td>
+    <td><select>
+        <option>position</option>Select an option 
+        <option>abc</option>ABC
+        <option>pqr</option>PQR
+        <option>xyz</option>XYZ
+    </select></td>
+    </tr>
     
 </table>
     </form>
