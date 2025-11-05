@@ -1,0 +1,59 @@
+/* body { */
+    /* background-image: linear-gradient(to bottom right,red,green); */
+    /* background-image: radial-gradient(pink,red,green); */
+    /* background-image: url(https://static.boostmytalent.com/img/univ/abes-engineering-college-ghaziabad-campus-admission.webp);
+    background-repeat: no-repeat;
+    background-size: cover; */
+/* } */
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #69bdea;
+    margin: 0;
+    padding: 0;  
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #0984e3;
+    padding: 20px;
+}    
+
+.nav-item {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.3s;
+}
+a:hover {
+    color:rgb(1, 22, 1);
+    transition: 0.25s ease;
+}
+
+.flowchart {
+    text-align: center;
+    margin-top: 40px;
+    display: none;
+    position: relative;
+}
+
+.flowchart:target {
+      display: block;
+}
+
+.sub-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.sub-box {
+    background-color: #55efc4;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
