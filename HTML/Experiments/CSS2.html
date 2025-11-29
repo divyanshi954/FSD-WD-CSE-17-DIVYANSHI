@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Background Repeat and Link Styles</title>
+  <style>
+    body {
+        text-align: center;
+        background-image:url('https://images.template.net/wp-content/uploads/2015/04/Digital-Backgrounds-Free.jpg');
+        background-repeat: repeat-x; 
+        background-size: auto;
+        color: black;   }
+    p {
+        font-weight: bold;
+    }
+    a:link {
+        color: #1d5b9d;
+        text-decoration: none;
+        font-weight: bold;    }
+    a:visited {
+        color: #186b2d;}
+    a:active {
+        color: #c30404;
+        text-decoration: underline;    }
+    a:hover {
+        color: #ee096c;
+        background-color: #e0e0e0;
+        transition: 0.3s; }
+    div {
+        display: flex;
+        border-style: groove;
+        border-color: #ee096c;
+        width: 300px;
+        height: 150px;
+        background-image: url('https://wallpaperaccess.com/full/817603.jpg');
+        background-size: cover;
+        border-radius: 25px;
+        padding: 20px;
+        margin: 0 auto;  }
+    
+    </style>
+</head>
+<body>
+  <h2>CSS Background Repeat and Link Example</h2>
+  <p> This demo shows how to control image repetition and apply styles to different link states:  </p>
+    <div>
+    <ul><li><a href="https://www.google.com/" target="_blank">Visit Google</a></li>
+    <li><a href="https://www.youtube.com/" target="_blank">Visit Youtube</a></li>
+    <li><a href="https://youtu.be/5_zRun2jd2M?si=gYEc_Nn9MekjC3j_" target="_blank">Watch TMKOC Episode 414</a></li>
+    </ul></div>
+  <p>Change <code>background-repeat</code> or link styles in the CSS to see different effects!</p>
+</body>
+</html>
